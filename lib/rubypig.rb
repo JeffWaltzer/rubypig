@@ -1,5 +1,5 @@
 require "rubypig/version"
 
-module Rubypig
+module RubyPig
   # Your code goes here...
 end
