@@ -13,6 +13,9 @@ describe 'RubyPig' do
         expect(File).not_to receive(:open).with('/dev/pigpio', 'w')
         RubyPig::Daemon.new(pipe: StringIO.new)
       end
+
+      it 'sets pipe sync to true'
+
     end
 
     describe '#pin' do
