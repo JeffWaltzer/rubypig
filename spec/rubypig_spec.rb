@@ -4,7 +4,7 @@ RSpec.describe 'RubyPig' do
   end
 
   it "does something useful" do
-    io_stream= StringIO.new
-    expect(RubyPig::Daemon.new(io_stream)).not_to be_nil
+    expect(RubyPig::Daemon.new).not_to be_nil
   end
+
 end

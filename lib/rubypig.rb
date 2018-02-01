@@ -1,5 +1,2 @@
-require "rubypig/version"
-
-module RubyPig
-  # Your code goes here...
-end
+require 'rubypig/version'
+require 'rubypig/daemon'
